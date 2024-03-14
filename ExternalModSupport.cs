@@ -52,7 +52,7 @@ namespace CalamityModMusic
                     { "CalamityMod AcidRainT1", ModContent.ItemType<AcidRainTier1MusicBox>() },
                     { "CalamityMod AcidRainT2", ModContent.ItemType<AcidRainTier1MusicBox>() }, //ModContent.ItemType<AcidRainTier2MusicBox>()
                     { "CalamityMod AcidRainT3", ModContent.ItemType<AcidRainTier3MusicBox>() },
-                    { "CalamityMod BossRush", new List<int>() { ModContent.ItemType<BossRushTier1MusicBox>(), ModContent.ItemType<BossRushTier2MusicBox>(), ModContent.ItemType<BossRushTier3MusicBox>()/*, ModContent.ItemType<BossRushTier4MusicBox>()*//*, ModContent.ItemType<BossRushTier5MusicBox>() */} }
+                    { "CalamityMod BossRush", new List<int>() { ModContent.ItemType<BossRushTier1MusicBox>(), ModContent.ItemType<BossRushTier2MusicBox>(), ModContent.ItemType<BossRushTier3MusicBox>(), ModContent.ItemType<BossRushTier4MusicBox>()/*, ModContent.ItemType<BossRushTier5MusicBox>() */} }
                 });
             }
         }
@@ -86,6 +86,7 @@ namespace CalamityModMusic
             AddMusic("BossRushTier1", "CDMusic");
             AddMusic("BossRushTier2", "CDMusic");
             AddMusic("BossRushTier3", "CDMusic");
+            AddMusic("BossRushTier4", "CDMusic");
             AddMusic("BrimstoneCrags", "DMDOKURO");
             AddMusic("BrimstoneElemental", "DMDOKURO");
             AddMusic("CalamitasClone", "DMDOKURO");

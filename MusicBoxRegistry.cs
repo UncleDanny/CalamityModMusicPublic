@@ -18,7 +18,7 @@ using BioLabMusicBox = CalamityModMusic.Items.Placeables.BioLabMusicBox;
 using BossRushTier1MusicBox = CalamityModMusic.Items.Placeables.BossRushTier1MusicBox;
 using BossRushTier2MusicBox = CalamityModMusic.Items.Placeables.BossRushTier2MusicBox;
 using BossRushTier3MusicBox = CalamityModMusic.Items.Placeables.BossRushTier3MusicBox;
-// using BossRushTier4MusicBox = CalamityModMusic.Items.Placeables.BossRushTier4MusicBox;
+using BossRushTier4MusicBox = CalamityModMusic.Items.Placeables.BossRushTier4MusicBox;
 // using BossRushTier5MusicBox = CalamityModMusic.Items.Placeables.BossRushTier5MusicBox;
 using BrimstoneCragsMusicBox = CalamityModMusic.Items.Placeables.BrimstoneCragsMusicBox;
 using BrimstoneElementalMusicBox = CalamityModMusic.Items.Placeables.BrimstoneElementalMusicBox;
@@ -128,8 +128,8 @@ namespace CalamityModMusic
                 AddMusicBox("Sounds/Music/BossRushTier1", ModContent.ItemType<BossRushTier1MusicBox>(), ModContent.TileType<Tiles.BossRushTier1MusicBox>());
                 AddMusicBox("Sounds/Music/BossRushTier2", ModContent.ItemType<BossRushTier2MusicBox>(), ModContent.TileType<Tiles.BossRushTier2MusicBox>());
                 AddMusicBox("Sounds/Music/BossRushTier3", ModContent.ItemType<BossRushTier3MusicBox>(), ModContent.TileType<Tiles.BossRushTier3MusicBox>());
-                //AddMusicBox("Sounds/Music/BossRushTier4", ModContent.ItemType<BossRushTier4MusicBox>(), ModContent.TileType<BossRushTier4MusicBox>());
-                //AddMusicBox("Sounds/Music/BossRushTier5", ModContent.ItemType<BossRushTier5MusicBox>(), ModContent.TileType<BossRushTier5MusicBox>());
+                AddMusicBox("Sounds/Music/BossRushTier4", ModContent.ItemType<BossRushTier4MusicBox>(), ModContent.TileType<Tiles.BossRushTier4MusicBox>());
+                //AddMusicBox("Sounds/Music/BossRushTier5", ModContent.ItemType<BossRushTier5MusicBox>(), ModContent.TileType<Tiles.BossRushTier5MusicBox>());
 
                 // Other Music.
                 AddMusicBox("Sounds/Music/CalamityTitle", ModContent.ItemType<CalamityTitleMusicBox>(), ModContent.TileType<Tiles.CalamityTitleMusicBox>()); //Seamless

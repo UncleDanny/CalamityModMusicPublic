@@ -96,7 +96,7 @@ Mods: {
 
 			BossRushTier4MusicBox: {
 				DisplayName: Music Box (Boss Rush - Tier 4)
-				Tooltip: This music box is unfinished and does not work
+				Tooltip: Plays 'Trial of the Insane' by CDMusic
 			}
 
 			BossRushTier5MusicBox: {
