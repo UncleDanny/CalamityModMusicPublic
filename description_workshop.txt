@@ -54,4 +54,5 @@ Full list of tracks:
 [*] CDMusic - Ensemble of Fools
 [*] CDMusic - Onslaught of Beasts
 [*] CDMusic - Reign of Lords
+[*] CDMusic - Trial of the Insane
 [/olist]
