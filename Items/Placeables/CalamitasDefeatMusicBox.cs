@@ -10,8 +10,8 @@ namespace CalamityModMusic.Items.Placeables
 
         public override void AddRecipes()
         {
+            // Does not play long enough in-game to realistically make this obtainable normally
 			CreateRecipe().
-				AddIngredient(ItemID.MusicBox).
 				AddIngredient(ModContent.ItemType<CalamitasPhase1MusicBox>()).
 				AddIngredient(ModContent.ItemType<CalamitasPhase2MusicBox>()).
 				AddIngredient(ModContent.ItemType<CalamitasPhase3MusicBox>()).

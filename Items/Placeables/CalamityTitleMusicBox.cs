@@ -10,24 +10,18 @@ namespace CalamityModMusic.Items.Placeables
 
         public override void AddRecipes()
         {
-            Mod calamity = CalamityModMusic.Instance.calamity;
-			if (calamity != null)
-			{
-				// If any of these Cal items don't exist or got renamed, don't make a recipe at all
-				try
-				{
-					CreateRecipe().
-						AddIngredient(ItemID.MusicBox).
-						AddIngredient(calamity.Find<ModItem>("BrimstoneSlag").Type, 12).
-						AddIngredient(calamity.Find<ModItem>("EssenceofChaos").Type, 3).
-						AddTile(calamity.Find<ModTile>("AshenAltar").Type).
-                        Register();
-				}
-				catch
-				{
-					CalamityModMusic.Instance.Logger.Debug("One of the items or tiles in this recipe got renamed internally. Please report this in the #bugs-read-pins channel of the official Calamity discord server.");
-				}
-			}
+			// Contingent recipe in case it was discarded from the Starter Bag
+			// All of Dokuro's biome tracks --  based on a 2018 concept
+			CreateRecipe().
+				AddIngredient(ModContent.ItemType<AbyssLayer2MusicBox>()).
+				AddIngredient(ModContent.ItemType<AbyssLayer4MusicBox>()).
+				AddIngredient(ModContent.ItemType<AstralInfectionMusicBox>()).
+				AddIngredient(ModContent.ItemType<AstralInfectionUndergroundMusicBox>()).
+				AddIngredient(ModContent.ItemType<BrimstoneCragsMusicBox>()).
+				AddIngredient(ModContent.ItemType<SulphurousSeaDayMusicBox>()).
+				AddIngredient(ModContent.ItemType<SunkenSeaMusicBox>()).
+				AddTile(TileID.TinkerersWorkbench).
+                Register();
         }
     }
 }
