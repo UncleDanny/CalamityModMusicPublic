@@ -1,6 +1,4 @@
-using Terraria.ModLoader;
-
-namespace CalamityModMusic.Tiles
+﻿namespace CalamityModMusic.Tiles
 {
     public class Interlude2MusicBox : MusicBoxTile
     {
