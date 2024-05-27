@@ -179,6 +179,11 @@ Mods: {
 				Tooltip: Plays 'Murderswarm' by DM DOKURO
 			}
 
+			EulogyMusicBox: {
+				DisplayName: Music Box (Eulogy)
+				Tooltip: Plays 'Eulogy for the Ego' by DM DOKURO
+			}
+
 			ExoMechsMusicBox: {
 				DisplayName: Music Box (Exo Mechs)
 				Tooltip:
@@ -191,6 +196,21 @@ Mods: {
 			HiveMindMusicBox: {
 				DisplayName: Music Box (Hive Mind)
 				Tooltip: Plays 'The Filthy Mind' by DM DOKURO and SixteenInMono
+			}
+
+			Interlude1MusicBox: {
+				DisplayName: Music Box (Interlude 1)
+				Tooltip: Plays 'Silence before the storms' by DM DOKURO
+			}
+
+			Interlude2MusicBox: {
+				DisplayName: Music Box (Interlude 2)
+				Tooltip: Plays 'Storms before the catastrophes' by DM DOKURO
+			}
+
+			Interlude3MusicBox: {
+				DisplayName: Music Box (Interlude 3)
+				Tooltip: Plays 'Catastrophes before the calamity' by DM DOKURO
 			}
 
 			LeviathanMusicBox: {
