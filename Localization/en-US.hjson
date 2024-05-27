@@ -164,6 +164,11 @@ Mods: {
 				Tooltip: Plays 'Guardian of the Former Seas' by DM DOKURO
 			}
 
+			DevourerofGodsEulogyMusicBox: {
+				DisplayName: Music Box (Devourer of Gods - Eulogy)
+				Tooltip: Plays 'Scourge of the Universe (Eulogy for the Ego)' by DM DOKURO
+			}
+
 			DevourerofGodsPhase1MusicBox: {
 				DisplayName: Music Box (Devourer of Gods - Phase 1)
 				Tooltip: Plays 'Scourge of the Universe' by DM DOKURO
@@ -191,6 +196,21 @@ Mods: {
 			HiveMindMusicBox: {
 				DisplayName: Music Box (Hive Mind)
 				Tooltip: Plays 'The Filthy Mind' by DM DOKURO and SixteenInMono
+			}
+
+			Interlude1MusicBox: {
+				DisplayName: Music Box (Interlude 1)
+				Tooltip: Plays 'Silence Before the Storms' by DM DOKURO
+			}
+
+			Interlude2MusicBox: {
+				DisplayName: Music Box (Interlude 2)
+				Tooltip: Plays 'Storms Before the Catastrophes' by DM DOKURO
+			}
+
+			Interlude3MusicBox: {
+				DisplayName: Music Box (Interlude 3)
+				Tooltip: Plays 'Catastrophes Before the Calamity' by DM DOKURO
 			}
 
 			LeviathanMusicBox: {
@@ -317,11 +337,15 @@ Mods: {
 					Crabulon: Infestation
 					Cryogen: Antarctic Reinforcement
 					DesertScourge: Guardian of the Former Seas
+					DevourerofGodsEulogy: Scourge of the Universe (Eulogy for the Ego)
 					DevourerofGodsPhase1: Scourge of the Universe
 					DevourerofGodsPhase2: Universal Collapse
 					Dragonfolly: Murderswarm
 					ExoMechs: Inferior Fabrications
 					HiveMind: The Filthy Mind
+					Interlude1: Silence Before the Storms
+					Interlude2: Storms Before the Catastrophes
+					Interlude3: Catastrophes Before the Calamity
 					Leviathan: Forbidden Lullaby
 					OldDuke: Toxic Wisdom
 					Perforators: Blood Coagulant
