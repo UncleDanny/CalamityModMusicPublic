@@ -35,8 +35,12 @@ using DesertScourgeMusicBox = CalamityModMusic.Items.Placeables.DesertScourgeMus
 using DevourerofGodsPhase1MusicBox = CalamityModMusic.Items.Placeables.DevourerofGodsPhase1MusicBox;
 using DevourerofGodsPhase2MusicBox = CalamityModMusic.Items.Placeables.DevourerofGodsPhase2MusicBox;
 using DragonfollyMusicBox = CalamityModMusic.Items.Placeables.DragonfollyMusicBox;
+using EulogyMusicBox = CalamityModMusic.Items.Placeables.EulogyMusicBox;
 using ExoMechsMusicBox = CalamityModMusic.Items.Placeables.ExoMechsMusicBox;
 using HiveMindMusicBox = CalamityModMusic.Items.Placeables.HiveMindMusicBox;
+using Interlude1MusicBox = CalamityModMusic.Items.Placeables.Interlude1MusicBox;
+using Interlude2MusicBox = CalamityModMusic.Items.Placeables.Interlude2MusicBox;
+using Interlude3MusicBox = CalamityModMusic.Items.Placeables.Interlude3MusicBox;
 using LeviathanMusicBox = CalamityModMusic.Items.Placeables.LeviathanMusicBox;
 using OldDukeMusicBox = CalamityModMusic.Items.Placeables.OldDukeMusicBox;
 using PerforatorsMusicBox = CalamityModMusic.Items.Placeables.PerforatorsMusicBox;
@@ -130,6 +134,12 @@ namespace CalamityModMusic
                 AddMusicBox("Sounds/Music/BossRushTier3", ModContent.ItemType<BossRushTier3MusicBox>(), ModContent.TileType<Tiles.BossRushTier3MusicBox>());
                 AddMusicBox("Sounds/Music/BossRushTier4", ModContent.ItemType<BossRushTier4MusicBox>(), ModContent.TileType<Tiles.BossRushTier4MusicBox>());
                 //AddMusicBox("Sounds/Music/BossRushTier5", ModContent.ItemType<BossRushTier5MusicBox>(), ModContent.TileType<Tiles.BossRushTier5MusicBox>());
+
+                // Music Events.
+                AddMusicBox("Sounds/Music/Interlude1", ModContent.ItemType<Interlude1MusicBox>(), ModContent.TileType<Tiles.Interlude1MusicBox>());
+                AddMusicBox("Sounds/Music/Interlude2", ModContent.ItemType<Interlude2MusicBox>(), ModContent.TileType<Tiles.Interlude2MusicBox>());
+                AddMusicBox("Sounds/Music/Interlude3", ModContent.ItemType<Interlude3MusicBox>(), ModContent.TileType<Tiles.Interlude3MusicBox>());
+                AddMusicBox("Sounds/Music/Eulogy", ModContent.ItemType<EulogyMusicBox>(), ModContent.TileType<Tiles.EulogyMusicBox>());
 
                 // Other Music.
                 AddMusicBox("Sounds/Music/CalamityTitle", ModContent.ItemType<CalamityTitleMusicBox>(), ModContent.TileType<Tiles.CalamityTitleMusicBox>()); //Seamless
