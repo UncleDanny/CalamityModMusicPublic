@@ -91,6 +91,7 @@ namespace CalamityModMusic
             AddMusic("BrimstoneElemental", "DMDOKURO");
             AddMusic("CalamitasClone", "DMDOKURO");
             AddMusic("CalamitasDefeat", "DMDOKURO");
+            AddMusic("CalamitasDefeat_LongFade", "DMDOKURO");
             AddMusic("CalamitasPhase1", "DMDOKURO");
             AddMusic("CalamitasPhase2", "DMDOKURO");
             AddMusic("CalamitasPhase3", "DMDOKURO");
@@ -99,10 +100,10 @@ namespace CalamityModMusic
             AddMusic("Crabulon", "DMDOKURO");
             AddMusic("Cryogen", "DMDOKURO");
             AddMusic("DesertScourge", "DMDOKURO");
+            AddMusic("DevourerofGodsEulogy", "DMDOKURO");
             AddMusic("DevourerofGodsPhase1", "DMDOKURO");
             AddMusic("DevourerofGodsPhase2", "DMDOKURO");
             AddMusic("Dragonfolly", "DMDOKURO");
-            AddMusic("Eulogy", "DMDOKURO");
             AddMusic("ExoMechs", "PinpinNeon");
             AddMusic("HiveMind", "DMDOKUROFeature");
             AddMusic("Interlude1", "DMDOKURO");

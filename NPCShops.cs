@@ -19,7 +19,7 @@ namespace CalamityModMusic
                 shop.Add(ModContent.ItemType<Interlude1MusicBox>(), DownedCalamitasClone);
                 shop.Add(ModContent.ItemType<Interlude2MusicBox>(), Condition.DownedMoonLord);
                 shop.Add(ModContent.ItemType<Interlude3MusicBox>(), DownedYharon);
-                shop.Add(ModContent.ItemType<EulogyMusicBox>(), DownedDevourerofGods);
+                shop.Add(ModContent.ItemType<DevourerofGodsEulogyMusicBox>(), DownedDevourerofGods);
             }
         }
     }
