@@ -161,7 +161,7 @@ namespace CalamityModMusic
                     int itemType = ModContent.ItemType<CalamitasDefeatMusicBox>();
 
                     musicToItem[musicSlot] = itemType;
-                    info.SetValue(null, musicToItem);
+                    //info.SetValue(null, musicToItem);   <----- This doesn't work right now
                 }
             }
         }
