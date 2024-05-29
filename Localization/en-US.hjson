@@ -164,6 +164,11 @@ Mods: {
 				Tooltip: Plays 'Guardian of the Former Seas' by DM DOKURO
 			}
 
+			DevourerofGodsEulogyMusicBox: {
+				DisplayName: Music Box (Devourer of Gods - Eulogy)
+				Tooltip: Plays 'Eulogy for the Ego' by DM DOKURO
+			}
+
 			DevourerofGodsPhase1MusicBox: {
 				DisplayName: Music Box (Devourer of Gods - Phase 1)
 				Tooltip: Plays 'Scourge of the Universe' by DM DOKURO
@@ -177,11 +182,6 @@ Mods: {
 			DragonfollyMusicBox: {
 				DisplayName: Music Box (Dragonfolly)
 				Tooltip: Plays 'Murderswarm' by DM DOKURO
-			}
-
-			EulogyMusicBox: {
-				DisplayName: Music Box (Eulogy)
-				Tooltip: Plays 'Eulogy for the Ego' by DM DOKURO
 			}
 
 			ExoMechsMusicBox: {
@@ -338,10 +338,10 @@ Mods: {
 					Crabulon: Infestation
 					Cryogen: Antarctic Reinforcement
 					DesertScourge: Guardian of the Former Seas
+					DevourerofGodsEulogy: Eulogy for the Ego
 					DevourerofGodsPhase1: Scourge of the Universe
 					DevourerofGodsPhase2: Universal Collapse
 					Dragonfolly: Murderswarm
-					Eulogy: Eulogy for the Ego
 					ExoMechs: Inferior Fabrications
 					HiveMind: The Filthy Mind
 					Interlude1: Silence Before the Storms
