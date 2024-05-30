@@ -157,11 +157,12 @@ namespace CalamityModMusic
                     FieldInfo info = typeof(MusicLoader).GetField("musicToItem", BindingFlags.NonPublic | BindingFlags.Static);
                     var musicToItem = (Dictionary<int, int>)info.GetValue(null);
 
-                    int musicSlot = MusicLoader.GetMusicSlot(CalamityModMusic.Instance, "CalamitasDefeat_LongFade");
+                    int musicSlot = MusicLoader.GetMusicSlot(CalamityModMusic.Instance, "Sounds/Music/CalamitasDefeat_LongFade");
                     int itemType = ModContent.ItemType<CalamitasDefeatMusicBox>();
 
+                    // The FieldInfo returns the same Dictionary instance as the one in the music loader,
+                    // so the field does not need to have its value re-set so long as the Dictionary is modified
                     musicToItem[musicSlot] = itemType;
-                    //info.SetValue(null, musicToItem);   <----- This doesn't work right now
                 }
             }
         }
