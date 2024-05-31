@@ -1,4 +1,7 @@
-﻿using Terraria;
+﻿using System.Collections.Generic;
+using System.Reflection;
+using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 using AbyssLayer1MusicBox = CalamityModMusic.Items.Placeables.AbyssLayer1MusicBox;
 using AbyssLayer2MusicBox = CalamityModMusic.Items.Placeables.AbyssLayer2MusicBox;
@@ -32,11 +35,15 @@ using CeaselessVoidMusicBox = CalamityModMusic.Items.Placeables.CeaselessVoidMus
 using CrabulonMusicBox = CalamityModMusic.Items.Placeables.CrabulonMusicBox;
 using CryogenMusicBox = CalamityModMusic.Items.Placeables.CryogenMusicBox;
 using DesertScourgeMusicBox = CalamityModMusic.Items.Placeables.DesertScourgeMusicBox;
+using DevourerofGodsEulogyMusicBox = CalamityModMusic.Items.Placeables.DevourerofGodsEulogyMusicBox;
 using DevourerofGodsPhase1MusicBox = CalamityModMusic.Items.Placeables.DevourerofGodsPhase1MusicBox;
 using DevourerofGodsPhase2MusicBox = CalamityModMusic.Items.Placeables.DevourerofGodsPhase2MusicBox;
 using DragonfollyMusicBox = CalamityModMusic.Items.Placeables.DragonfollyMusicBox;
 using ExoMechsMusicBox = CalamityModMusic.Items.Placeables.ExoMechsMusicBox;
 using HiveMindMusicBox = CalamityModMusic.Items.Placeables.HiveMindMusicBox;
+using Interlude1MusicBox = CalamityModMusic.Items.Placeables.Interlude1MusicBox;
+using Interlude2MusicBox = CalamityModMusic.Items.Placeables.Interlude2MusicBox;
+using Interlude3MusicBox = CalamityModMusic.Items.Placeables.Interlude3MusicBox;
 using LeviathanMusicBox = CalamityModMusic.Items.Placeables.LeviathanMusicBox;
 using OldDukeMusicBox = CalamityModMusic.Items.Placeables.OldDukeMusicBox;
 using PerforatorsMusicBox = CalamityModMusic.Items.Placeables.PerforatorsMusicBox;
@@ -133,6 +140,30 @@ namespace CalamityModMusic
 
                 // Other Music.
                 AddMusicBox("Sounds/Music/CalamityTitle", ModContent.ItemType<CalamityTitleMusicBox>(), ModContent.TileType<Tiles.CalamityTitleMusicBox>()); //Seamless
+                AddMusicBox("Sounds/Music/Interlude1", ModContent.ItemType<Interlude1MusicBox>(), ModContent.TileType<Tiles.Interlude1MusicBox>());
+                AddMusicBox("Sounds/Music/Interlude2", ModContent.ItemType<Interlude2MusicBox>(), ModContent.TileType<Tiles.Interlude2MusicBox>());
+                AddMusicBox("Sounds/Music/Interlude3", ModContent.ItemType<Interlude3MusicBox>(), ModContent.TileType<Tiles.Interlude3MusicBox>());
+                AddMusicBox("Sounds/Music/DevourerofGodsEulogy", ModContent.ItemType<DevourerofGodsEulogyMusicBox>(), ModContent.TileType<Tiles.DevourerofGodsEulogyMusicBox>());
+
+                // This makes it so that the SCal "Acceptance" event records a regular acceptance music box, despite them
+                // technically being 2 separate tracks
+                if (!Main.dedServ)
+                {
+                    // `musicToItem` is a Dictionary of music slots to item types that is used to
+                    // convert music boxes while music is playing
+                    //
+                    // It is marked as internal, so we need to use reflection to modify it directly, but
+                    // by doing so we can make it so that 2 different tracks point to the same music box
+                    FieldInfo info = typeof(MusicLoader).GetField("musicToItem", BindingFlags.NonPublic | BindingFlags.Static);
+                    var musicToItem = (Dictionary<int, int>)info.GetValue(null);
+
+                    int musicSlot = MusicLoader.GetMusicSlot(CalamityModMusic.Instance, "Sounds/Music/CalamitasDefeat_LongFade");
+                    int itemType = ModContent.ItemType<CalamitasDefeatMusicBox>();
+
+                    // The FieldInfo returns the same Dictionary instance as the one in the music loader,
+                    // so the field does not need to have its value re-set so long as the Dictionary is modified
+                    musicToItem[musicSlot] = itemType;
+                }
             }
         }
     }

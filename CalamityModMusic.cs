@@ -28,11 +28,7 @@ namespace CalamityModMusic
             ModLoader.TryGetMod("MusicDisplay", out musicDisplay);
 
             if (!Main.dedServ)
-            {
-                if (wikithis is not null)
-                    wikithis.Call("AddModURL", this, CalamityWikiURL);
-            }
-
+                wikithis?.Call("AddModURL", this, CalamityWikiURL);
         }
 
         public override void Unload()
