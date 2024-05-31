@@ -166,7 +166,7 @@ Mods: {
 
 			DevourerofGodsEulogyMusicBox: {
 				DisplayName: Music Box (Devourer of Gods - Eulogy)
-				Tooltip: Plays 'Eulogy for the Ego' by DM DOKURO
+				Tooltip: Plays 'Scourge of the Universe (Eulogy for the Ego)' by DM DOKURO
 			}
 
 			DevourerofGodsPhase1MusicBox: {
@@ -200,17 +200,17 @@ Mods: {
 
 			Interlude1MusicBox: {
 				DisplayName: Music Box (Interlude 1)
-				Tooltip: Plays 'Silence Before the Storms' by DM DOKURO
+				Tooltip: Plays 'Silence before the storms' by DM DOKURO
 			}
 
 			Interlude2MusicBox: {
 				DisplayName: Music Box (Interlude 2)
-				Tooltip: Plays 'Storms Before the Catastrophes' by DM DOKURO
+				Tooltip: Plays 'Storms before the catastrophes' by DM DOKURO
 			}
 
 			Interlude3MusicBox: {
 				DisplayName: Music Box (Interlude 3)
-				Tooltip: Plays 'Catastrophes Before the Calamity' by DM DOKURO
+				Tooltip: Plays 'Catastrophes before the calamity' by DM DOKURO
 			}
 
 			LeviathanMusicBox: {
