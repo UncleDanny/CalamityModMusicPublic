@@ -1,5 +1,5 @@
 author = Fabsol and the Dev Team
-version = 2.0.4.002
+version = 2.0.4.003
 displayName = Calamity Mod Music
 homepage = https://discord.gg/calamity
 hideCode = true
