@@ -1,0 +1,382 @@
+Mods: {
+	CalamityModMusic: {
+		Items: {
+			AbyssLayer1MusicBox: {
+				DisplayName: Boîte à Musique (Abysses - 1er Niveau)
+				Tooltip: Joue "hesitation" de Heart Plus Up!
+			}
+
+			AbyssLayer2MusicBox: {
+				DisplayName: Boîte à Musique (Abysses - 2ème Niveau)
+				Tooltip: Joue "Hadopelagic Pressure" de DM DOKURO
+			}
+
+			AbyssLayer3MusicBox: {
+				DisplayName: Boîte à Musique (Abysses - 3ème Niveau)
+				Tooltip: Joue "R'LYEH" de RoverdriveX
+			}
+
+			AbyssLayer4MusicBox: {
+				DisplayName: Boîte à Musique (Abysses - 4ème Niveau)
+				Tooltip: Joue "void" de DM DOKURO
+			}
+
+			AcidRainTier1MusicBox: {
+				DisplayName: Boîte à Musique (Pluie Acide - Tiers 1 et 2)
+				Tooltip:
+					'''
+					Joue "corrosion!" de RoverdriveX
+					Cette boîte à musique contient un son provisoire
+					'''
+			}
+
+			AcidRainTier3MusicBox: {
+				DisplayName: Boîte à Musique (Pluie Acide - Tier 3)
+				Tooltip:
+					'''
+					Joue "nuclear monsoon" de PinpinNeon
+					Cette boîte à musique contient un son provisoire
+					'''
+			}
+
+			AnahitaMusicBox: {
+				DisplayName: Boîte à Musique (Anahita)
+				Tooltip: Joue "Siren's War Cry" de DM DOKURO
+			}
+
+			AnahitasLureMusicBox: {
+				DisplayName: Boîte à Musique (Leurre d'Anahita)
+				Tooltip: Joue "Siren's Call" de DM DOKURO
+			}
+
+			AquaticScourgeMusicBox: {
+				DisplayName: Boîte à Musique (Fléau Aquatique)
+				Tooltip: Joue "Outcast of the Sulphurous Seas" de DM DOKURO
+			}
+
+			AstralInfectionMusicBox: {
+				DisplayName: Boîte à Musique (Infection Astrale)
+				Tooltip: Joue "The Heaven-Sent Abomination" de DM DOKURO
+			}
+
+			AstralInfectionUndergroundMusicBox: {
+				DisplayName: Boîte à Musique (Infection Astrale Souterraine)
+				Tooltip: Joue "Treasures Within the Abomination" de DM DOKURO
+			}
+
+			AstrumAureusMusicBox: {
+				DisplayName: Boîte à Musique (Astrum Aureus)
+				Tooltip: Joue "Interstellar Stomper" de DM DOKURO
+			}
+
+			AstrumDeusMusicBox: {
+				DisplayName: Boîte à Musique (Astrum Deus)
+				Tooltip: Joue "Pest of the Cosmos" de DM DOKURO
+			}
+
+			BioLabMusicBox: {
+				DisplayName: Boîte à Musique (Laboratoire Biologique)
+				Tooltip: Joue "Engineer's Sanctum" de Heart Plus Up!
+			}
+
+			BossRushTier1MusicBox: {
+				DisplayName: Boîte à Musique (Boss Rush - Tier 1)
+				Tooltip: Joue "Ensemble of Fools" de CDMusic
+			}
+
+			BossRushTier2MusicBox: {
+				DisplayName: Boîte à Musique (Boss Rush - Tier 2)
+				Tooltip: Joue "Onslaught of Beasts" de CDMusic
+			}
+
+			BossRushTier3MusicBox: {
+				DisplayName: Boîte à Musique (Boss Rush - Tier 3)
+				Tooltip: Joue "Reign of Lords" de CDMusic
+			}
+
+			BossRushTier4MusicBox: {
+				DisplayName: Boîte à Musique (Boss Rush - Tier 4)
+				Tooltip: Joue "Trial of the Insane" de CDMusic
+			}
+
+			BossRushTier5MusicBox: {
+				DisplayName: Boîte à Musique (Boss Rush - Tier 5)
+				Tooltip: This music box is unfinished and does not work
+			}
+
+			BrimstoneCragsMusicBox: {
+				DisplayName: Boîte à Musique (Fosses de Brimstone)
+				Tooltip: Joue "The Step Below Hell" de DM DOKURO
+			}
+
+			BrimstoneElementalMusicBox: {
+				DisplayName: Boîte à Musique (Elémentaire de Brimstone)
+				Tooltip: Joue "Left Alone" de DM DOKURO
+			}
+
+			CalamitasCloneMusicBox: {
+				DisplayName: Boîte à Musique (Clone de Calamitas)
+				Tooltip: Joue "Raw, Unfiltered Calamity" de DM DOKURO
+			}
+
+			CalamitasDefeatMusicBox: {
+				DisplayName: Boîte à Musique (Calamitas - Défaite)
+				Tooltip: Joue "Stained, Brutal Calamity (Acceptance)" de DM DOKURO
+			}
+
+			CalamitasPhase1MusicBox: {
+				DisplayName: Boîte à Musique (Calamitas - Phase 1)
+				Tooltip: Joue "Stained, Brutal Calamity (Grief)" de DM DOKURO
+			}
+
+			CalamitasPhase2MusicBox: {
+				DisplayName: Boîte à Musique (Calamitas - Phase 2)
+				Tooltip: Joue "Stained, Brutal Calamity (Lament)" de DM DOKURO
+			}
+
+			CalamitasPhase3MusicBox: {
+				DisplayName: Boîte à Musique (Calamitas - Phase 3)
+				Tooltip: Joue "Stained, Brutal Calamity (Epiphany)" de DM DOKURO
+			}
+
+			CalamityTitleMusicBox: {
+				DisplayName: Boîte à Musique (Titre de Calamity)
+				Tooltip: Joue "The Tale of a Cruel World" de DM DOKURO
+			}
+
+			CeaselessVoidMusicBox: {
+				DisplayName: Boîte à Musique (Ceaseless Void)
+				Tooltip: Joue "Servants of the Scourge (Type V)" de DM DOKURO
+			}
+
+			CrabulonMusicBox: {
+				DisplayName: Boîte à Musique (Crabulon)
+				Tooltip: Joue "Infestation" de DM DOKURO
+			}
+
+			CryogenMusicBox: {
+				DisplayName: Boîte à Musique (Cryogen)
+				Tooltip: Joue "Antarctic Reinforcement" de DM DOKURO
+			}
+
+			DesertScourgeMusicBox: {
+				DisplayName: Boîte à Musique (Fléau du Désert)
+				Tooltip: Joue "Guardian of the Former Seas" de DM DOKURO
+			}
+
+			DevourerofGodsEulogyMusicBox: {
+				DisplayName: Boîte à Musique (Dévoreur de Dieux - Elogie)
+				Tooltip: Joue "Scourge of the Universe (Eulogy for the Ego)" de DM DOKURO
+			}
+
+			DevourerofGodsPhase1MusicBox: {
+				DisplayName: Boîte à Musique (Dévoreur de Dieux - Phase 1)
+				Tooltip: Joue "Scourge of the Universe" de DM DOKURO
+			}
+
+			DevourerofGodsPhase2MusicBox: {
+				DisplayName: Boîte à Musique (Dévoreur de Dieux - Phase 2)
+				Tooltip: Joue "Universal Collapse" de DM DOKURO
+			}
+
+			DragonfollyMusicBox: {
+				DisplayName: Boîte à Musique (Dragonfolly)
+				Tooltip: Joue "Murderswarm" de DM DOKURO
+			}
+
+			ExoMechsMusicBox: {
+				DisplayName: Boîte à Musique (Exo Mechs)
+				Tooltip:
+					'''
+					Joue "Inferior Fabrications" de PinpinNeon
+					Cette boîte à musique contient un son provisoire
+					'''
+			}
+
+			HiveMindMusicBox: {
+				DisplayName: Boîte à Musique (Hive Mind)
+				Tooltip: Joue "The Filthy Mind" de DM DOKURO and SixteenInMono
+			}
+
+			Interlude1MusicBox: {
+				DisplayName: Boîte à Musique (Interlude 1)
+				Tooltip: Joue "Silence before the storms" de DM DOKURO
+			}
+
+			Interlude2MusicBox: {
+				DisplayName: Boîte à Musique (Interlude 2)
+				Tooltip: Joue "Storms before the catastrophes" de DM DOKURO
+			}
+
+			Interlude3MusicBox: {
+				DisplayName: Boîte à Musique (Interlude 3)
+				Tooltip: Joue "Catastrophes before the calamity" de DM DOKURO
+			}
+
+			LeviathanMusicBox: {
+				DisplayName: Boîte à Musique (Leviathan)
+				Tooltip: Joue "Forbidden Lullaby" de DM DOKURO
+			}
+
+			OldDukeMusicBox: {
+				DisplayName: Boîte à Musique (Old Duke)
+				Tooltip: Joue "Toxic Wisdom" de DM DOKURO
+			}
+
+			PerforatorsMusicBox: {
+				DisplayName: Boîte à Musique (Perforateurs)
+				Tooltip: Joue "Blood Coagulant" de DM DOKURO and SixteenInMono
+			}
+
+			PlaguebringerGoliathMusicBox: {
+				DisplayName: Boîte à Musique (Plaguebringer Goliath)
+				Tooltip: Joue "Fly of Beelzebub" de DM DOKURO
+			}
+
+			PolterghastMusicBox: {
+				DisplayName: Boîte à Musique (Polterghast)
+				Tooltip: Joue "Feral Amalgamation" de DM DOKURO
+			}
+
+			PrimordialWyrmMusicBox: {
+				DisplayName: Boîte à Musique (Wyrme Primordial)
+				Tooltip: Joue "Threats of the Ocean Floor" de DM DOKURO
+			}
+
+			ProfanedGuardiansMusicBox: {
+				DisplayName: Boîte à Musique (Gardiens Profanés)
+				Tooltip: Joue "Unholy Ambush" de DM DOKURO
+			}
+
+			ProvidenceMusicBox: {
+				DisplayName: Boîte à Musique (Providence)
+				Tooltip: Joue "Unholy Insurgency" de DM DOKURO
+			}
+
+			RavagerMusicBox: {
+				DisplayName: Boîte à Musique (Ravageur)
+				Tooltip: Joue "Open Frenzy" de DM DOKURO
+			}
+
+			SignusMusicBox: {
+				DisplayName: Boîte à Musique (Signus)
+				Tooltip: Joue "Servants of the Scourge (Type S)" de DM DOKURO
+			}
+
+			SlimeGodMusicBox: {
+				DisplayName: Boîte à Musique (Slime God)
+				Tooltip: Joue "Return to Slime" de DM DOKURO and SixteenInMono
+			}
+
+			StormWeaverMusicBox: {
+				DisplayName: Boîte à Musique (Storm Weaver)
+				Tooltip: Joue "Servants of the Scourge (Type W)" de DM DOKURO
+			}
+
+			SulphurousSeaDayMusicBox: {
+				DisplayName: Boîte à Musique (Mer Sulfurique - Jour)
+				Tooltip: Joue "wasteland" de DM DOKURO
+			}
+
+			SulphurousSeaNightMusicBox: {
+				DisplayName: Boîte à Musique (Mer Sulfurique - Nuit)
+				Tooltip: Joue "caustic tides" de Heart Plus Up!
+			}
+
+			SunkenSeaMusicBox: {
+				DisplayName: Boîte à Musique (Mer Engloutie)
+				Tooltip: Joue "sanctuary" de DM DOKURO
+			}
+
+			YharonLegacyMusicBox: {
+				DisplayName: Boîte à Musique (Yharon - Legacy)
+				Tooltip: Joue "Infernal Catharsis" de DM DOKURO
+			}
+
+			YharonPhase1MusicBox: {
+				DisplayName: Boîte à Musique (Yharon - Phase 1)
+				Tooltip: Joue "Infernal Catharsis (Rebirth)" de DM DOKURO
+			}
+
+			YharonPhase2MusicBox: {
+				DisplayName: Boîte à Musique (Yharon - Phase 2)
+				Tooltip: Joue "Roar of the Jungle Dragon" de DM DOKURO
+			}
+		}
+
+		ModSupport: {
+			MusicDisplay: {
+				SongNames: {
+					AbyssLayer1: hesitation
+					AbyssLayer2: Hadopelagic Pressure
+					AbyssLayer3: R'LYEH
+					AbyssLayer4: void
+					AcidRainTier1: corrosion!
+					AcidRainTier3: nuclear monsoon
+					Anahita: Siren's War Cry
+					AnahitasLure: Siren's Call
+					AquaticScourge: Outcast of the Sulphurous Seas
+					AstralInfection: The Heaven-Sent Abomination
+					AstralInfectionUnderground: Treasures Within the Abomination
+					AstrumAureus: Interstellar Stomper
+					AstrumDeus: Pest of the Cosmos
+					BioLab: Engineer's Sanctum
+					BossRushTier1: Ensemble of Fools
+					BossRushTier2: Onslaught of Beasts
+					BossRushTier3: Reign of Lords
+					BossRushTier4: Trial of the Insane
+					BrimstoneCrags: The Step Below Hell
+					BrimstoneElemental: Left Alone
+					CalamitasClone: Raw, Unfiltered Calamity
+					CalamitasDefeat: Stained, Brutal Calamity (Acceptance)
+					CalamitasDefeat_LongFade: Stained, Brutal Calamity (Acceptance)
+					CalamitasPhase1: Stained, Brutal Calamity (Grief)
+					CalamitasPhase2: Stained, Brutal Calamity (Lament)
+					CalamitasPhase3: Stained, Brutal Calamity (Epiphany)
+					CalamityTitle: The Tale of a Cruel World
+					CeaselessVoid: Servants of the Scourge (Type V)
+					Crabulon: Infestation
+					Cryogen: Antarctic Reinforcement
+					DesertScourge: Guardian of the Former Seas
+					DevourerofGodsEulogy: Scourge of the Universe (Eulogy for the Ego)
+					DevourerofGodsPhase1: Scourge of the Universe
+					DevourerofGodsPhase2: Universal Collapse
+					Dragonfolly: Murderswarm
+					ExoMechs: Inferior Fabrications
+					HiveMind: The Filthy Mind
+					Interlude1: Silence before the storms
+					Interlude2: Storms before the catastrophes
+					Interlude3: Catastrophes before the calamity
+					Leviathan: Forbidden Lullaby
+					OldDuke: Toxic Wisdom
+					Perforators: Blood Coagulant
+					PlaguebringerGoliath: Fly of Beelzebub
+					Polterghast: Feral Amalgamation
+					PrimordialWyrm: Threats of the Ocean Floor
+					ProfanedGuardians: Unholy Ambush
+					Providence: Unholy Insurgency
+					Ravager: Open Frenzy
+					Signus: Servants of the Scourge (Type S)
+					SlimeGod: Return to Slime
+					StormWeaver: Servants of the Scourge (Type W)
+					SulphurousSeaDay: wasteland
+					SulphurousSeaNight: caustic tides
+					SunkenSea: sanctuary
+					YharonLegacy: Infernal Catharsis
+					YharonPhase1: Infernal Catharsis (Rebirth)
+					YharonPhase2: Roar of the Jungle Dragon
+				}
+
+				Authors: {
+					AquaSG: de AquaSG
+					CDMusic: de CDMusic
+					DMDOKURO: de DM DOKURO
+					DMDOKUROFeature: de DM DOKURO et SixteenInMono
+					HeartPlusUp: de Heart Plus Up!
+					PinpinNeon: de PinpinNeon
+					RoverdriveX: de RoverdriveX
+				}
+			}
+		}
+	}
+}
